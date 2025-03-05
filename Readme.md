@@ -38,8 +38,8 @@ Ensure you have the following installed:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/django-csv-processing.git
-cd django-csv-processing
+git clone https://github.com/link.git
+cd Server
 ```
 
 ### **2. Create an Environment File**
