@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "b35e6ed6-e67e-4c35-b792-3bee0b723d19",
+		"name": "DoShare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27919147"
+	},
+	"item": [
+		{
+			"name": "Upload file",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "csv_file",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "csv_file",
+							"type": "file",
+							"src": "/home/prasad/Storage/Documents/Projects/DoShare/test.csv"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/core/v1/upload/"
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/core/v1/status/1a1ff9b9-fa48-4ee0-a160-6864e5c10306"
+			},
+			"response": []
+		}
+	]
+}
